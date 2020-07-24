@@ -22,7 +22,7 @@ steps:
     '--image', 'gcr.io/$PROJECT_ID/instapuller:$SHORT_SHA', 
     '--region', '${_RUN_REGION}',
     '--platform', 'managed',
-    '--allow-unauthenticated',
+    '--no-allow-unauthenticated',
     '--quiet'
     ]
 
